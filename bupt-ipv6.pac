@@ -7,7 +7,7 @@ function FindProxyForURL(s, a) {
         if (t.hasOwnProperty(f)) return i; //是否在白名单
         u = a.indexOf(".", u) + 1, f = a.substring(u)
     } while ( u > 0 );
-    var o = dnsResolve(a); //DNS解析
+    var o = dnsResolveEx(a); //DNS解析
     if (!o) return r; //解析失败
     if (o.indexOf(":") >= 0) return i; //解析到IPV6
     var l = o.split("."),
