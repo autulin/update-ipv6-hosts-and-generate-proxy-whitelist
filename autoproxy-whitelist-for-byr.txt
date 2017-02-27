@@ -3,7 +3,6 @@
 @@||byr.cn
 @@|http://10.
 @@|https://10.
-@@||cnki.net
 @@||localhost
 @@||google-public-dns-a.google.com
 @@||google-public-dns-b.google.com
